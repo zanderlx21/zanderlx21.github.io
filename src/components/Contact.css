@@ -30,15 +30,15 @@
 }
 
 #Contact-Email-Icon {
-   color: rgb(255, 205, 41);
+   color: rgb(0, 0, 0);
    font-size: 4.5em;
    transform: translateY(-11px);
    animation: float .5s alternate infinite ease-out;
 }
 
 @keyframes float {
-    0% {transform: translateY(-11px)}
-    100% {transform: translateY(-15px)}
+    0% {transform: translateY(-11px) scale(1)}
+    100% {transform: translateY(-15px)scale(1.03); border-bottom: 8px solid rgb(166, 255, 0)}
 }
 
 .Dashes-Yellow {
