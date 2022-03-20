@@ -1,0 +1,46 @@
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(0, 72, 136);
+    /* background-image: linear-gradient(
+        rgb(0, 112, 209),
+        rgb(0, 121, 228),
+        rgb(0, 112, 209),
+        rgb(0, 54, 102) 95%
+    ); */
+    height: 40vh;
+    color: white;
+
+}
+
+.Contact-Links {
+    display: flex;
+    gap: 2em;
+    padding-top: 1em;
+    opacity: .5;
+    /* border: 2px solid black; */
+}
+
+.Github-Icon,
+.LinkedIn-Icon {
+    height: 50px;
+}
+
+#Contact-Email-Icon {
+   color: rgb(255, 205, 41);
+   font-size: 4.5em;
+   transform: translateY(-11px);
+   animation: float .5s alternate infinite ease-out;
+}
+
+@keyframes float {
+    0% {transform: translateY(-11px)}
+    100% {transform: translateY(-15px)}
+}
+
+.Dashes-Yellow {
+    color: rgb(255, 205, 41);
+}

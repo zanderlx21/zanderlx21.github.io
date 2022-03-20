@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Projects {
+  min-height: 100vh;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url('/src/images/45degreee_fabric.png');
+    background-repeat: repeat; */
+  /* padding: 1.5rem; */
+  background-image: linear-gradient(
+    rgb(0, 54, 102),
+    rgb(0, 54, 102),
+    rgba(0, 69, 87),
+    rgb(75, 0, 75),
+    rgb(0, 112, 209),
+    rgb(104, 41, 156),
+    rgb(255, 189, 41));
+
+  background:rgb(0, 54, 102)
+}
+
+
+.Projects h1 {
+  color: white;
+  font-size: 2.5em;
+  align-self: flex-start;
+  z-index: 0;
+}
+
+.Section-Dashes {
+  color:rgb(190, 190, 190);
+  padding-right: 5px;
+}
+
+#section-asterisk {
+  position: absolute;
+  font-size: 20px;
+  transform: translate(5px,34px);
+  color: rgb(255, 189, 41);
+}
+
+.Cards-Container {
+/* border: 2px solid red; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin: 1em 0 0 0;
+}
+
+.card {
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    margin-bottom: 25px;
+    /* padding-bottom: 1.5em; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+#Memory-Match-Title {
+  font-size: 1.7em;
+}
+
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card-content {
+  padding: 1.5em;
+}
+
+.card-content img {
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.Crop-My-Thoughts {
+  overflow: hidden;
+}
+.Crop-My-Thoughts img {
+  margin: -60px 0;
+}
+
+.Crop-Animated-Form {
+  overflow: hidden;
+}
+
+.Crop-Animated-Form img {
+  margin: 0 0 -60px 0;
+}
+
+.card-title {
+  font-size: 2em;
+  padding-block: .25em;
+}
+
+.card-text {
+}
+
+.tools {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 700;
+  color:rgb(48, 48, 48);
+  align-self: flex-start;
+  padding-block: 1em;
+}
+.tools p{
+  /* border: 2px solid blue; */
+  padding: 0.2em 0px;
+}
+
+.links a {
+  color: white;
+  font-size: .81rem;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0em .8em .7em .8em;
+  background-color: rgb(0, 95, 179);
+  border: 2px solid rgb(0, 95, 179);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: .6em;
+  gap: .8em;
+  /* margin: 20px; */
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.links a:last-child {
+  background-color: rgb(169, 215, 255);
+  background-color: rgb(248, 248, 248);
+  /* border:none;
+  border-bottom: 3px solid rgb(0, 95, 179); */
+  border: 3px solid rgb(169, 215, 255);
+  color: rgb(41, 41, 41);
+  /* opacity: 0.8; */
+  /* color: rgb(0, 70, 131); */
+}
+
+#Project-Link-Icon {
+  font-size: 1.8em;
+  transform: translateY(8px);
+  padding-left: 4px;
+}
+
+#GitHub-Link-Icon {
+  
+  font-size: 1.8em;
+  transform: translateY(6px);
+  padding-left: 4px;
+  /* padding-block: .14em; */
+  opacity: 0.9;
+}
+
+#tornado {
+  font-size: 1rem;
+  transform: rotate(0deg) translateX(-2px);
+}
