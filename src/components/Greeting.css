@@ -1,6 +1,3 @@
-::root {
-    
-}
 .Logo-Container {
     position: absolute;
     top: 20px;
@@ -10,6 +7,13 @@
 #Logo-Icon {
     transform: rotate(180deg);
     font-size: 1.3em;
+    /* border-top: 2px solid rgba(0, 0, 0, 0.13); */
+}
+#Logo-Icon-Z {
+    transform: rotate(5deg) translate(-11px, 4px);
+    color: rgb(0, 54, 102);
+    font-size: 2.3em;
+    
 }
 
 #Email-Icon {
@@ -17,6 +21,41 @@
     font-size: 1.6em;
     color: white;
     right: 0;
+}
+
+.available-for-work {
+    position: absolute;
+    top: 100px;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; */
+    gap: 1em;
+    padding-right: 1.5rem;
+    /* border: 2px solid red; */
+}
+
+#arrow-top {
+    font-size: 1.5rem;
+    /* padding-left: .1em; */
+    /* transform: translate(-2px, 4px); */
+    transform: translateY(12px);
+    padding-right: .1em;
+  }
+
+.Date {
+    display: flex;
+}
+
+.Day {
+    width: fit-content;
+    /* margin-block: -25px; */
+    /* font-size: 4rem; */
+    /* color: rgb(255, 189, 41); */
+}
+
+.Month {
+    width: fit-content;
+    /* font-size: 1.5rem; */
 }
 
 .Greeting {
@@ -35,28 +74,38 @@
     border-top-right-radius: 350px;
     background: rgb(1, 86, 160);
     position:relative;
-    
+    /* z-index: -1; */
+    padding: 1.5rem;
+}
+
+.Greeting-Container {
+/* border: 2px solid red; */
+overflow: hidden;
+
+/* padding: 1.5rem; */
+
 }
 
 .Content {
-    z-index: 0;
+    z-index: 6;
 }
 
 /* Available For Work */
-.Greeting h6 {
-    position: absolute;
-    top: 100px;
-}
+
 
 /* Hi I'm Alex */
 .Greeting h1 {
+    font-size: 3rem;
+    /* border: 2px solid red; */
     max-width: 25ch;
     line-height: 1.35;
+    /* letter-spacing: .05em; */
     padding: 1.4em 0 .25em 0;
 }
 
 .dashes {
-    color:rgb(31, 31, 31)
+    color:rgb(31, 31, 31);
+    padding-left: .1em;
 }
 
 #asterisk {
@@ -84,16 +133,30 @@
     width: 235px;
     /* align-self: flex-end; */
     margin: 90px 30px 0 0;
+    z-index: 10;
 }
 
 #View-Projects-Button:hover {
-    background-color: rgb(13, 101, 160)
+    background: rgb(0, 138, 230);
+    /* background-image: linear-gradient(
+    rgb(0, 138, 230),
+    rgb(0, 112, 209)
+    
+    ); */
+    transform: scale(1.05);
 }
+
+#View-Projects-Button:hover #cta-Arrow {
+    transition: 175ms;
+    transform: rotate(450deg) scale(1.02);
+}
+
 
 
 #cta-Arrow {
     margin: 0;
     padding: 0 5px;
+    transform: translateY(1px);
 }
 
 #hive {
@@ -111,9 +174,35 @@
    transform: rotateZ(232deg) skew(35deg, -40deg) translateX(-60px) translateY(-115px);
    animation: spin 30s ease-in-out alternate infinite;
    opacity: .6;
+   z-index: 5;
+   /* overflow-x: hidden; */
 }
 
 @keyframes spin {
     0% { transform: rotateZ( 170deg   ) skew(35deg, -40deg) translateY(-50px)}
       100% { transform: rotateZ( 360deg );}
 }
+
+
+
+
+.available h6 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 1s forwards;
+      
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
