@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9778174.css",
-    "main.js": "/static/js/main.2e32a7b1.js",
+    "main.css": "/static/css/main.5d79c348.css",
+    "main.js": "/static/js/main.9680029f.js",
     "static/js/787.be50f874.chunk.js": "/static/js/787.be50f874.chunk.js",
     "static/media/SafariMatchGame.png": "/static/media/SafariMatchGame.2c4320efd54fd2756a5d.png",
     "static/media/GifWizard.png": "/static/media/GifWizard.bbeb6b561c61352b5e36.png",
     "static/media/Embark.png": "/static/media/Embark.b7fe73d731184827a740.png",
+    "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/Wingfead-gx4xp.otf": "/static/media/Wingfead-gx4xp.83a874e2e63b40a9bd5a.otf",
     "static/media/AnimatedForm.png": "/static/media/AnimatedForm.92bb02fd4315731e4d61.png",
     "static/media/MyThoughts.png": "/static/media/MyThoughts.b36f4b702e20a86d4b95.png",
+    "static/media/balkind-demo.otf": "/static/media/balkind-demo.1e25354e8e37d3fa2e93.otf",
     "index.html": "/index.html",
-    "main.a9778174.css.map": "/static/css/main.a9778174.css.map",
-    "main.2e32a7b1.js.map": "/static/js/main.2e32a7b1.js.map",
+    "main.5d79c348.css.map": "/static/css/main.5d79c348.css.map",
+    "main.9680029f.js.map": "/static/js/main.9680029f.js.map",
     "787.be50f874.chunk.js.map": "/static/js/787.be50f874.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9778174.css",
-    "static/js/main.2e32a7b1.js"
+    "static/css/main.5d79c348.css",
+    "static/js/main.9680029f.js"
   ]
 }
